@@ -5,8 +5,7 @@ Implements the model for joint entity and relation extraction from biomedical te
 ## Table of Contents
 - [Dependencies](#dependencies)
 - [Model training](#training-a-model)
-- [Model evaluation](#evaluating-a-model)
-- [Making predictions on existing datasets](#making-predictions-on-existing-datasets)
+- [Evaluating model and making predictions on existing datasets](#evaluating-a-model-and-making-predictions-on-existing-datasets)
 
 ## Dependencies
 
