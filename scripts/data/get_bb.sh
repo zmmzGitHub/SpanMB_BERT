@@ -17,11 +17,11 @@ rm -r $out_dir/BB-rel+ner/*.zip
 
 # merge all abstracts on each set
 mkdir -p $out_dir/processed_data/merge_data
-python scripts/data/bacteria/01_merge_file.py
+python scripts/data/bb/01_merge_file.py
 
 # Run formatting
 mkdir $out_dir/processed_data/json
-python scripts/data/bacteria/02_final_bb_to_input.py
+python scripts/data/bb/02_final_bb_to_input.py
 
 
 
