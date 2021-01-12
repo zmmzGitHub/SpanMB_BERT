@@ -21,8 +21,10 @@ python scripts/data/bb/01_merge_file.py
 
 # Run formatting
 mkdir $out_dir/processed_data/json
+# Format labelled files (training and development sets)
 python scripts/data/bb/02_final_bb_to_input.py
-
+# Format unlabelled file (test set)
+python scripts/data/bb/04-test_set_process.py
 
 
 
